@@ -4,7 +4,7 @@
 Hao Wang, Guosheng Lin, Steven C. H. Hoi, Chunyan Miao  
 
 
-<!-- ![outline](https://github.com/hwang1996/ACME/blob/master/imgs/cvpr_fig.png) -->
+![teaser](https://github.com/hwang1996/3D-Cartoon-Face-Generation/imgs/https://github.com/hwang1996/3D-Cartoon-Face-Generation.png)
 
 If you find this code useful, please consider citing:
 ```
