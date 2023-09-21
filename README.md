@@ -4,7 +4,7 @@
 Hao Wang, Guosheng Lin, Steven C. H. Hoi, Chunyan Miao  
 
 
-![teaser](https://github.com/hwang1996/3D-Cartoon-Face-Generation/imgs/https://github.com/hwang1996/3D-Cartoon-Face-Generation.png)
+![teaser](https://github.com/hwang1996/3D-Cartoon-Face-Generation/tree/main/imgs/teaser.gif)
 
 If you find this code useful, please consider citing:
 ```
