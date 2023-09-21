@@ -1,5 +1,5 @@
 # [3D Cartoon Face Generation with Controllable Expressions from a Single GAN Image](https://arxiv.org/abs/2207.14425)
-## Codes of ACME (PyTorch)
+## Official Codes (PyTorch)
 *3D Cartoon Face Generation with Controllable Expressions from a Single GAN Image*  
 Hao Wang, Guosheng Lin, Steven C. H. Hoi, Chunyan Miao  
 
@@ -17,26 +17,26 @@ If you find this code useful, please consider citing:
 ```
 
 
-## 2D Cartoon Generation Model Training
+## From 2D Face to 3D Cartoon
+1. 2D Cartoon Generation Model Training
 ```
 cd Cartoon_Generator
 python train.py --batch=2 --ckpt=ffhq256.pt --structure_loss=1 --freezeD=2 --augment --path=data/disney_lmdb/
 ```
 
-## Facial Expression Manipulation
+2. Facial Expression Manipulation
 ```
 cd Cartoon_Generator
 python apply_factor_opt.py --ckpt=ffhq256.pt --save_image
 ```
 
-## 3D Shape Generation
-
-### Data Preparation
+3. Input Data Preparation
 ```
 cd 3D_Generator
 python single_generation.py --ckpt1 ffhq256.pt --ckpt2 disney.pt --load_path ../Cartoon_Generator/latents/ --save_path data
 ```
-### Training
+
+4. 3D Shape Generation Training
 ```
 bash scripts/run_sample.sh
 ```
