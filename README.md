@@ -1,10 +1,13 @@
 # [3D Cartoon Face Generation with Controllable Expressions from a Single GAN Image](https://arxiv.org/abs/2207.14425)
+
+<p align="center">
+    <img src="https://github.com/hwang1996/3D-Cartoon-Face-Generation/blob/main/imgs/teaser.gif", width="900">
+</p>
+
 ## Official Codes (PyTorch)
 *3D Cartoon Face Generation with Controllable Expressions from a Single GAN Image*  
 Hao Wang, Guosheng Lin, Steven C. H. Hoi, Chunyan Miao  
 
-
-![teaser](https://github.com/hwang1996/3D-Cartoon-Face-Generation/tree/main/imgs/teaser.gif)
 
 If you find this code useful, please consider citing:
 ```
